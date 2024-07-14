@@ -16,4 +16,17 @@ function getComputerChoice()
     return choice;
 }
  
-console.log(getComputerChoice());
+function getHumanChoice()
+{
+    sign = prompt("Please Enter a Valid Choice");
+    if (sign === "rock" || sign === "paper" || sign === "scissors")
+    {
+    return sign;
+    }
+    else
+    {
+     return (sign = "Enter a Valid Option NiGgA");
+    }
+}
+  
+console.log(getHumanChoice())
